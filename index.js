@@ -10,5 +10,5 @@ exports.handler = async (event, context, callback) => {
     console.log(error);
   }
 
-  return 'Hello';
+  return 'Hello ';
 };

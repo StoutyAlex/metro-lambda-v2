@@ -1,0 +1,18 @@
+{
+  "name": "metro-lambda-v2",
+  "version": "1.0.0",
+  "description": "Successor for metro-lambda",
+  "main": "index.js",
+  "scripts": {
+    "package": "./package.sh",
+    "test": "jest",
+    "bst": "bst proxy lambda index.js"
+  },
+  "author": "Alex Stout",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "lodash": "^4.17.11"
+  }
+}
